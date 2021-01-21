@@ -18,9 +18,9 @@
             <ul class="menu">
                 <li><a href="#main" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact-btn">Contact</a></li>
+                <li><a href="#services">Projects</a></li>
+                <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 
@@ -29,7 +29,7 @@
             <p>Hello,</p>
             <h1>I'm <font color="purple">Jimmy</font> Opot</h1>
             <p>and I'm a Software Developer</p>
-            <a href="#" class="cv-btn">Download CV</a>
+            <a href="files/jimmy opot software developer resume.pdf" class="cv-btn" download target="_blank">Download CV</a>
         </div>
 
         <!-- social -->
@@ -50,8 +50,11 @@
         <div class="about-text">
             <h1>About Me</h1>
             <h2>Full-Stack Developer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, amet.</p>
-            <button>More Details</button>
+            <p>I am a highly motivated self-taught developer with personal and work projects on my portfolio.
+               Both employees and clients rely on my software technical skills to build amazing projects and come
+               up with creative solutions to challenging problems.  
+            </p>
+            <button><a href="#services">Projects</a></button>
         </div>
          
         <div class="about-model">
@@ -63,46 +66,40 @@
     <!-- services -->
     <section id="services">
         <div class="s-heading">
-            <h1>Services</h1>
+            <h1>Projects</h1>
             <p>Lorem ipsum dolor sit amet consectetur</p>
         </div>
 
         <div class="s-b-container">
             <div class="s-box">
                 <div class="s-b-img">
-                    <div class="s-type">Front-End</div>
-                    <img src="images/bricks.png" alt="">
+                    <div class="s-type">Ecommerce website</div>
+                    <img src="images/ecommerce.png" alt="">
                 </div>
                 <div class="s-b-text">
-                    <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Cum incidunt animi unde culpa! Explicabo totam neque repellat labore 
-                        debitis quo.
+                    <a href="https://github.com/Jimmyopot" target="_blank">This is an ecommerce site built from Django, check it out on my github repo.
                     </a>
                 </div>
             </div>
 
             <div class="s-box">
                 <div class="s-b-img">
-                    <div class="s-type">Back-End</div>
-                    <img src="images/bricks2.png" alt="">
+                    <div class="s-type">Sms sending app</div>
+                    <img src="images/smsapp.png" alt="">
                 </div>
                 <div class="s-b-text">
-                    <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Cum incidunt animi unde culpa! Explicabo totam neque repellat labore 
-                        debitis quo.
+                    <a href="https://github.com/Jimmyopot" target="_blank">It was a privilege to build my company a software that sends SMS, staraight out of their API.
                     </a>
                 </div>
             </div>
 
             <div class="s-box">
                 <div class="s-b-img">
-                    <div class="s-type">Mobile</div>
-                    <img src="images/bricks.png" alt="">
+                    <div class="s-type">More on Github...</div>
+                    <img src="images/git.png" alt="">
                 </div>
                 <div class="s-b-text">
-                    <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Cum incidunt animi unde culpa! Explicabo totam neque repellat labore 
-                        debitis quo.
+                    <a href="https://github.com/Jimmyopot" target="_blank">Check out my other projects here.
                     </a>
                 </div>
             </div>
@@ -110,7 +107,7 @@
     </section>
 
     <!-- portfolio -->
-    <section id="portfolio">
+    <!-- <section id="portfolio">
         <h1 class="p-heading">Portfolio</h1>
         <div class="p-b-container">
 
@@ -175,16 +172,16 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
     <!-- contacts -->
-    <section id="contact-btn">
+    <!-- <section id="contact-btn">
         <h1>Contact Info</h1>
-        <a href="#contact-form">Contact Me</a>
-    </section>
+        <a href=".contact">Contact Me</a>
+    </section> -->
 
     <!-- contact form -->
-    <section id="contact-form">
+    <!-- <section id="contact-form">
         <form action="">
             <div class="contact-left">
                 <h1 class="c-l-heading"><font style="border-bottom: 3px solid purple;">Write</font>To Me</h1>
@@ -205,8 +202,65 @@
                 </div>
             </div>
         </form>
-    </section>
+    </section> -->
     
+
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <p>Reach me anytime on my phone or via Email...</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>61355-00100,<br>Nairobi, Kenya</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>+254724021814</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>jimmyopot@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contactForm">
+                <form action="index.php" method="post">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="name" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="msg" required="required"></textarea>
+                        <span>Write me a message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="submit" value="Send">
+                    </div>
+                </form>
+            </div>       
+        </div>
+    </section>
+
+
     <!-- Jquery -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript">
