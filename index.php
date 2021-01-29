@@ -1,6 +1,6 @@
 <?php
 
-    include ("index.html");
+    include ("project.html");
 
     if (isset($_POST['submit'])) {
         $name = $_POST['name'];
