@@ -245,7 +245,7 @@ section {
     transform: translateX(-50%);
 }
 .services .title::after {
-    content: 'progress on coding';
+    content: 'my work';
     position: absolute;
     bottom: -7px;
     left: 50%;
